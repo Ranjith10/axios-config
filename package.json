@@ -1,0 +1,22 @@
+{
+  "name": "axios-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjith10/axios-config.git"
+  },
+  "author": "Ranjith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ranjith10/axios-config/issues"
+  },
+  "homepage": "https://github.com/Ranjith10/axios-config#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

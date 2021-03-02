@@ -5,10 +5,14 @@ const App = () => {
   const [todo, setTodo] = useState([]);
   useEffect(() => {
     const fetchDummyData = async () => {
-      let response = await getDummyData();
-      console.log(response);
-      let data = response.data.slice(0, 10);
-      setTodo(data);
+      try {
+        let response = await getDummyData();
+        console.log(response);
+        let data = response.data.slice(0, 10);
+        setTodo(data);
+      } catch (err) {
+        console.log(err.message);
+      }
     };
     fetchDummyData();
   }, []);
